@@ -6,9 +6,10 @@
   @mixin atSmall {
     font-size: 3.75rem;
   }
-  /* strong {
-    font-weight: 700;
-  } */
+
+  &--green {
+    color: $mainGreen;
+  }
 
   &__icon {
     display: block;
@@ -16,6 +17,8 @@
     margin-right: auto;
     margin-bottom: 0.6rem;
     @mixin atSmall {
+      position: relative;
+      top: 8px;
       margin-right: 0.5rem;
       margin-left: 0;
       margin-bottom: 0;
