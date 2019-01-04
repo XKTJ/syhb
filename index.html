@@ -8,15 +8,35 @@
   </head>
   <body>
     <div class="header">
-      <ul class="header--menu">
-        <li>首页</li>
-        <li>关于我们</li>
-        <li>产品</li>
-        <li>联系我们</li>
-      </ul>
+      <div class="wrapper">
+        <div class="header__logo">
+          <img src="/assets/images/icons/clear-view-escapes.svg" alt="logo" />
+        </div>
+
+        <div class="header__menu-icon">
+          <div class="header__menu-icon__middle"></div>
+        </div>
+        <div class="header__menu-content">
+          <div class="header__btn-container">
+            <a href="#" class="btn">联系我们</a>
+          </div>
+
+          <nav class="primary-nav primary-nav--pull-right">
+            <ul>
+              <li><a href="#">首页</a></li>
+              <li><a href="#">关于我们</a></li>
+              <li><a href="#">产品特色</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
     <div class="large-hero">
       <picture>
+        <source
+          srcset="assets/images/Rand-Blower-Fan-small.jpg 640w"
+          media="(max-width: 640px)"
+        />
         <img
           src="assets/images/Rand-Blower-Fan.jpg"
           alt="风机"
@@ -217,5 +237,6 @@
         </p>
       </div>
     </footer>
+    <script src="temp/scripts/App.js"></script>
   </body>
 </html>
