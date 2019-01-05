@@ -23,9 +23,9 @@
 
           <nav class="primary-nav primary-nav--pull-right">
             <ul>
-              <li><a href="#">首页</a></li>
-              <li><a href="#">关于我们</a></li>
-              <li><a href="#">产品特色</a></li>
+              <li><a href="#about-us" id="about-us-link">关于我们</a></li>
+              <li><a href="#features" id="features-link">产品特色</a></li>
+              <li><a href="#contact" id="contact-link">联系我们</a></li>
             </ul>
           </nav>
         </div>
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div class="page-section">
+    <div id="about-us" class="page-section" data-matching-link="#about-us-link">
       <div class="wrapper">
         <h2
           class="headline headline--centered headline--light headline--b-margin-small"
@@ -102,7 +102,11 @@
       </div>
     </div>
 
-    <div class="page-section page-section--green">
+    <div
+      id="features"
+      class="page-section page-section--green"
+      data-matching-link="#features-link"
+    >
       <div class="wrapper">
         <h2 class="section-title">
           <img
@@ -170,6 +174,7 @@
     <div
       id="contact"
       class="page-section page-section--no-b-padding-until-large page-section--contact"
+      data-matching-link="#contact-link"
     >
       <div class="wrapper wrapper--no-padding-until-large">
         <h2 class="section-title section-title--green">
