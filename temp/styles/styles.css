@@ -577,7 +577,7 @@ a {
 @media (min-width: 1010px) {
 
 .page-section--contact {
-      background: url("/assets/images/tianjin.jpg") top center no-repeat;
+      background: url("../../assets/images/tianjin.jpg") top center no-repeat;
       background-size: cover
   }
   }
